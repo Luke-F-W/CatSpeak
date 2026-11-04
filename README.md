@@ -1,5 +1,5 @@
-# CatSay
-CatSay is a simple command line utility that prints ASCII cats with your messages.
+# CatSpeal
+CatSpeak is a simple command line utility that prints ASCII cats with your messages.
 Like cowsay, but cats.
 ## Features
 - Normal cat
@@ -15,137 +15,137 @@ Like cowsay, but cats.
 ## Installation
 
 Download the appropriate package for your Linux distribution from the GitHub Releases page:
-https://github.com/Luke-F-W/CatSay/releases
+https://github.com/Luke-F-W/CatSpeak/releases
 
 ### Arch Linux
 Download the `.pkg.tar.zst` package and install it with:
 ```bash
-sudo pacman -U ./catsay-1.0.0-1-x86_64.pkg.tar.zst
+sudo pacman -U ./catspeak-1.0.0-1-x86_64.pkg.tar.zst
 ```
 
 Then run:
 ```bash
-catsay
+catspeak
 ```
 
 ### Fedora and RPM based distributions
 
 Download the `.rpm` package and install it with:
 ```bash
-sudo dnf install ./catsay-1.0.0-1.x86_64.rpm
+sudo dnf install ./catspeak-1.0.0-1.x86_64.rpm
 ```
 
 Then run:
 ```bash
-catsay
+catspeak
 ```
 
 ### Ubuntu and Debian
 
 Download the `.deb` package and install it with:
 ```bash
-sudo apt install ./catsay-1.0.0.deb
+sudo apt install ./catspeak-1.0.0.deb
 ```
 
 Then run:
 ```bash
-catsay
+catspeak
 ```
 
 ## Usage
 
-Running CatSay without arguments displays the welcome screen.
+Running CatSpeak without arguments displays the welcome screen.
 ```bash
-catsay
+catspeak
 ```
 
 Display a message with a normal cat.
 ```bash
-catsay "Hello, world!"
+catspeak "Hello, world!"
 ```
 
 ## Cat Types
 
 ### Normal Cat
 ```bash
-catsay "Hello!"
+catspeak "Hello!"
 ```
 
 ### Sleeping Cat
 ```bash
-catsay -s "I'm tired..."
+catspeak -s "I'm tired..."
 ```
 
 ### Dead Cat
 ```bash
-catsay -d "Oh no..."
+catspeak -d "Oh no..."
 ```
 
 ### Alert Cat
 ```bash
-catsay -a "WARNING!"
+catspeak -a "WARNING!"
 ```
 
 ### Peeping Cat
 ```bash
-catsay -p "I'm watching you..."
+catspeak -p "I'm watching you..."
 ```
 
 ### Big Cat
 ```bash
-catsay -b "MEOW!"
+catspeak -b "MEOW!"
 ```
 
 ### Watchful Cat
 ```bash
-catsay -w "I see everything."
+catspeak -w "I see everything."
 ```
 
 ### Resting Cat
 ```bash
-catsay -r "Zzz..."
+catspeak -r "Zzz..."
 ```
 
 ## Help
 
 To see all available commands:
 ```bash
-catsay -h
+catspeak -h
 ```
 
 ## Commands
 
 | Command                 | Description                |
 | ----------------------- | -------------------------- |
-| `catsay`                | Display the welcome screen |
-| `catsay "<message>"`    | Display a normal cat       |
-| `catsay -s "<message>"` | Display a sleeping cat     |
-| `catsay -d "<message>"` | Display a dead cat         |
-| `catsay -a "<message>"` | Display an alert cat       |
-| `catsay -p "<message>"` | Display a peeping cat      |
-| `catsay -b "<message>"` | Display a big cat          |
-| `catsay -w "<message>"` | Display a watchful cat     |
-| `catsay -r "<message>"` | Display a resting cat      |
-| `catsay -h`             | Display the help page      |
+| `catspeak`                | Display the welcome screen |
+| `catspeak "<message>"`    | Display a normal cat       |
+| `catspeak -s "<message>"` | Display a sleeping cat     |
+| `catspeak -d "<message>"` | Display a dead cat         |
+| `catspeak -a "<message>"` | Display an alert cat       |
+| `catspeak -p "<message>"` | Display a peeping cat      |
+| `catspeak -b "<message>"` | Display a big cat          |
+| `catspeak -w "<message>"` | Display a watchful cat     |
+| `catspeak -r "<message>"` | Display a resting cat      |
+| `catspeak -h`             | Display the help page      |
 
 ## Building From Source
 
-CatSay is written in C and requires GCC or another compatible C compiler.
+CatSpeak is written in C and requires GCC or another compatible C compiler.
 
 Clone the repository:
 ```bash
-git clone https://github.com/Luke-F-W/CatSay.git
-cd CatSay
+git clone https://github.com/Luke-F-W/CatSpeak.git
+cd CatSpeak
 ```
 
-Compile CatSay:
+Compile CatSpeak:
 ```bash
-gcc catsay.c -o catsay
+gcc CatSpeak.c -o CatSpeak
 ```
 
-Run CatSay:
+Run CatSpeak:
 ```bash
-./catsay
+./CatSpeak
 ```
 
 ## Version
@@ -153,7 +153,7 @@ Run CatSay:
 Current version: 1.0.0
 
 ## ASCII Art Credits
-The ASCII art used by CatSay comes from:
+The ASCII art used by CatSpeak comes from:
 https://www.asciiart.eu/animals/cats
 
 Individual artists credited by the project include:
@@ -164,7 +164,7 @@ Individual artists credited by the project include:
 - Marcin `StfoReK` Glinski
 - Hayley Jane Wakenshaw (Flump)
 
-Run `catsay -h` to see the credits associated with each cat.
+Run `catspeak -h` to see the credits associated with each cat.
 
 ## License
 See the `LICENSE` file for license information.
