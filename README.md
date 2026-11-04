@@ -1,4 +1,4 @@
-# CatSpeal
+# CatSpeak
 CatSpeak is a simple command line utility that prints ASCII cats with your messages.
 Like cowsay, but cats.
 ## Features
