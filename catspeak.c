@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-// catsay -h | h for help, for help with catsay
+// catspeak -h | h for help, for help with catspeak
 void help(){
     printf("----------------------------\n");
     printf("  ____      _                   \n");
@@ -13,60 +13,60 @@ void help(){
     printf("----------------------------\n");
 
     printf("all ascii art sourced from https://www.asciiart.eu/animals/cats\n");
-    printf("catsay version: 1.0.0\n");
+    printf("CatSpeak version: 1.0.0\n");
 
     printf("------\n");
-    printf("catsay\n");
-    printf("This will print the welcome page for catsay, ascii art also used for errors.\n");
+    printf("CatSpeak\n");
+    printf("This will print the welcome page for CatSpeak, ascii art also used for errors.\n");
     printf("Artist: Unknown.\n");
 
     printf("------\n");
-    printf("catsay \"<String>\"\n");
+    printf("catspeak \"<String>\"\n");
     printf("This will print a normal cat, and display the string passed to it.\n");
     printf("Artist: Joan G. Stark (Spunk).\n");
 
     printf("------\n");
-    printf("catsay -s \"<String>\"\n");
+    printf("catspeak -s \"<String>\"\n");
     printf("This will print a sleeping cat, and display the string passed to it.\n");
     printf("Artist: Felix Lee.\n");
 
     printf("------\n");
-    printf("catsay -d \"<String>\"\n");
+    printf("catspeak -d \"<String>\"\n");
     printf("This will print a dead cat, and display the string passed to it.\n");
     printf("Artist: Joan G. Stark (Spunk).\n");
 
     printf("------\n");
-    printf("catsay -a \"<String>\"\n");
+    printf("catspeak -a \"<String>\"\n");
     printf("This will print an alert cat, and display the string passed to it.\n");
     printf("Artist: Unknown.\n");
 
     printf("------\n");
-    printf("catsay -p \"<String>\"\n");
+    printf("catspeak -p \"<String>\"\n");
     printf("This will print a peeping cat, and display the string passed to it.\n");
     printf("Artist: Unknown.\n");
 
     printf("------\n");
-    printf("catsay -b \"<String>\"\n");
+    printf("catspeak -b \"<String>\"\n");
     printf("This will print a big cat, and display the string passed to it.\n");
     printf("Artist: Laura Brown (SheDragon).\n");
 
     printf("------\n");
-    printf("catsay -w \"<String>\"\n");
+    printf("catspeak -w \"<String>\"\n");
     printf("This will print a watchful cat, and display the string passed to it.\n");
     printf("Artist: Marcin `StfoReK` Glinski.\n");
 
     printf("------\n");
-    printf("catsay -r \"<String>\"\n");
+    printf("catspeak -r \"<String>\"\n");
     printf("This will print a resting cat, and display the string passed to it.\n");
     printf("Artist: Hayley Jane Wakenshaw (Flump).\n");
 
     printf("------\n");
-    printf("catsay -h\n");
-    printf("This will display the many cool catsay commands.\n");
+    printf("catspeak -h\n");
+    printf("This will display the many cool catspeak commands.\n");
 }
 
-// catsay "<String>" | normal silly cat
-void catsayNormal(const char *message){
+// catspeak "<String>" | normal silly cat
+void catspeakNormal(const char *message){
     printf("----------------------------\n");
     printf("----\n");
     printf("%s\n", message);
@@ -86,8 +86,8 @@ void catsayNormal(const char *message){
     printf("----------------------------\n");
 }
 
-// catsay -d "<String>" | d for dead
-void catsayDead(const char *message){
+// catspeak -d "<String>" | d for dead
+void catspeakDead(const char *message){
     printf("----------------------------\n");
     printf("----\n");
     printf("%s\n", message);
@@ -107,8 +107,8 @@ void catsayDead(const char *message){
     printf("----------------------------\n");
 }
 
-// catsay -a "<String>" | a for alert
-void catsayAlert(const char *message){
+// catspeak -a "<String>" | a for alert
+void catspeakAlert(const char *message){
     printf("----------------------------\n");
     printf("            ------\n");
     printf("            %s\n", message);
@@ -122,8 +122,8 @@ void catsayAlert(const char *message){
     printf("----------------------------\n");
 }
 
-// catsay -s "<String>" | s for sleepy
-void catsaySleepy(const char *message){
+// catspeak -s "<String>" | s for sleepy
+void catspeakSleepy(const char *message){
     printf("----------------------------\n");
     printf("----\n");
     printf("%s\n", message);
@@ -137,8 +137,8 @@ void catsaySleepy(const char *message){
     printf("----------------------------\n");
 }
 
-// catsay -p "<String>" | p for peeping
-void catsayPeeping(const char *message){
+// catspeak -p "<String>" | p for peeping
+void catspeakPeeping(const char *message){
     printf("----------------------------\n");
     printf("    ----\n");
     printf("    %s\n", message);
@@ -152,8 +152,8 @@ void catsayPeeping(const char *message){
 
 }
 
-// catsay -b "<String>" | b for big
-void catsayBigCat(const char *message){
+// catspeak -b "<String>" | b for big
+void catspeakBigCat(const char *message){
     printf("----------------------------\n");
     printf("    ----\n");
     printf("    %s\n", message);
@@ -169,8 +169,8 @@ void catsayBigCat(const char *message){
     printf("----------------------------\n");
 }
 
-// catsay -w "<String>" | w for watchful
-void catsayWatchful(const char *message){
+// catspeak -w "<String>" | w for watchful
+void catspeakWatchful(const char *message){
     printf("----------------------------\n");
     printf("   --------\n");
     printf("    %s\n", message);
@@ -185,8 +185,8 @@ void catsayWatchful(const char *message){
     printf("----------------------------\n");
 }
 
-// catsay -r "<String>" | r for resting
-void catsayResting(const char *message){
+// catspeak -r "<String>" | r for resting
+void catspeakResting(const char *message){
     printf("----------------------------\n");
     printf("----\n");
     printf("%s\n", message);
@@ -205,7 +205,7 @@ void error(){
     printf("----------------------------\n");
     printf("----\n");
     printf("Error: you may of entered too many, too little or mistyped an argument.\n");
-    printf("See `catsay -h` for help\n");
+    printf("See `catspeak -h` for help\n");
     printf("----\n");
     printf("  \\\n");
     printf("   \\\n");
@@ -226,8 +226,8 @@ void welcome(){
     printf(" \\____\\__,_|\\__|___/\\__,_|\\__, |\n");
     printf("                          |___/ \n");
     printf("----\n");
-    printf("Welcome to catsay!\n");
-    printf("See `catsay -h` for help\n");
+    printf("Welcome to CatSpeak!\n");
+    printf("See `catspeak -h` for help\n");
     printf("----\n");
     printf("  \\\n");
     printf("   \\\n");
@@ -253,7 +253,7 @@ int main(int argc, char *argv[]) // argc says how many args were provided
     }
 
 
-    // main if statement for commands, engine of catsay
+    // main if statement for commands, engine of catspeak
     if (strcmp(argv[1], "-h") == 0){ // c has weird syntax, but okay, if arg1 is -h then its somehow equal to 0
         help(); 
     }
@@ -262,52 +262,52 @@ int main(int argc, char *argv[]) // argc says how many args were provided
             error();
             return 0;
         }
-        catsayAlert(argv[2]);
+        catspeakAlert(argv[2]);
     }
     else if (strcmp(argv[1], "-d") == 0){ //dead, if the 1st arg is -d
         if (argv[2] == NULL){
             error();
             return 0;
         }
-        catsayDead(argv[2]);
+        catspeakDead(argv[2]);
     }
     else if (strcmp(argv[1], "-s") == 0){ //sleepy, if the 1st arg is -s
         if (argv[2] == NULL){
             error();
             return 0;
         }
-        catsaySleepy(argv[2]);
+        catspeakSleepy(argv[2]);
     }
     else if (strcmp(argv[1], "-p") == 0){ //peeping, if the 1st arg is -p
         if (argv[2] == NULL){
             error();
             return 0;
         }
-        catsayPeeping(argv[2]);
+        catspeakPeeping(argv[2]);
     }
     else if (strcmp(argv[1], "-b") == 0){ //big cat, if the 1st arg is -b
         if (argv[2] == NULL){
             error();
             return 0;
         }
-        catsayBigCat(argv[2]);
+        catspeakBigCat(argv[2]);
     }
     else if (strcmp(argv[1], "-w") == 0){ //watchful, if the 1st arg is -w
         if (argv[2] == NULL){
             error();
             return 0;
         }
-        catsayWatchful(argv[2]);
+        catspeakWatchful(argv[2]);
     }
     else if (strcmp(argv[1], "-r") == 0){ //resting, if the 1st arg is -r
         if (argv[2] == NULL){
             error();
             return 0;
         }
-        catsayResting(argv[2]);
+        catspeakResting(argv[2]);
     }
     else if (argc == 2){
-        catsayNormal(argv[1]);
+        catspeakNormal(argv[1]);
     }
     else{
         error();
